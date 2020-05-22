@@ -1,0 +1,17 @@
+<template>
+    <div class="slds-m-around_small" onsimple={handleSimpleEvent}>
+        <strong>I am inside parent comp</strong>
+        <br/>
+        <c-chil-comp 
+            message="Massage from parent"
+            pagno="35" 
+            
+        ></c-chil-comp>
+    </div>
+    <div class="slds-m-around_small" >
+        <lightning-button label="change date"
+                        onclick={handleClick}
+                        variant="brand">
+        </lightning-button>
+    </div>
+</template>

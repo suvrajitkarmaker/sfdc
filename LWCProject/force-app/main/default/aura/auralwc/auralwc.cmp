@@ -1,0 +1,16 @@
+<aura:component>
+    <lightning:card title="LWC_AURA" iconName="custom:custom34">
+        <div>
+            <c:lwcaura onsuvraEvent="{!c.doHandle}"
+                       aura:id="childCmp"
+            ></c:lwcaura>
+        </div>
+        <br/>
+        <div>
+            <lightning:button   label="call child method "
+                                variant="brand"
+                                onclick="{!c.callChild}">
+            </lightning:button>
+        </div>
+    </lightning:card>
+</aura:component>	

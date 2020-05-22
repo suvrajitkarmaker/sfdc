@@ -1,0 +1,56 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/helloWorld": [
+                "helloWorld/helloWorld.js"
+            ],
+            "c/calculator": [
+                "calculator/calculator.js"
+            ],
+            "c/parentComp": [
+                "parentComp/parentComp.js"
+            ],
+            "c/chilComp": [
+                "chilComp/chilComp.js"
+            ],
+            "c/grandChild": [
+                "grandChild/grandChild.js"
+            ],
+            "c/lwcaura": [
+                "lwcaura/lwcaura.js"
+            ],
+            "c/sharedmisc": [
+                "sharedmisc/sharedmisc.js"
+            ],
+            "c/utility": [
+                "utility/utility.js"
+            ],
+            "c/quickCase": [
+                "quickCase/quickCase.js"
+            ],
+            "c/oppurtunityDetails": [
+                "oppurtunityDetails/oppurtunityDetails.js"
+            ],
+            "c/searchComponent": [
+                "searchComponent/searchComponent.js"
+            ],
+            "c/customLookup": [
+                "customLookup/customLookup.js"
+            ],
+            "c/recordList": [
+                "recordList/recordList.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}
